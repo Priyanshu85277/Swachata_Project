@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO('best.pt')
 
 
-video_path = '19541-302628048_small.mp4'  # Replace with your video file path
+video_path = 'garbage video.mp4'  # Replace with your video file path
 
 cap = cv2.VideoCapture(video_path)
 
